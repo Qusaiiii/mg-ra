@@ -2,7 +2,7 @@ const yourID = "513730861947158556"; //Instructions on how to get this: https://
 const setupCMD = "!crm"
 const prefix = '!';
 let initialMessage = `
-**اضغط على الري اكشن لاخذ الرتبة**
+**اختر القسم الذي يعجبك**
 `;
 const roles = ["- MG", "- Player", "- Anime" ];
 const reactions = ["🎫", "💻", "😃"];
