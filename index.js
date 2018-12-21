@@ -1,5 +1,6 @@
 const yourID = "513730861947158556"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!crm"
+const prefix = '!';
 let initialMessage = `
 **اضغط على الري اكشن لاخذ الرتبة**
 `;
