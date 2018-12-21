@@ -1,13 +1,8 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-
 const yourID = "513730861947158556"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!crm"
-let initialMessage = `**اضغط على الري اكشن لاخذ الرتبة**`;
+let initialMessage = `
+**اضغط على الري اكشن لاخذ الرتبة**
+`;
 const roles = ["MG", "Games", "Anime" ];
 const reactions = ["🎫", "💻", "😃"];
 /*You'll have to set this yourself; read more
