@@ -4,7 +4,7 @@ const prefix = '!';
 let initialMessage = `
 **اضغط على الري اكشن لاخذ الرتبة**
 `;
-const roles = ["MG", "Games", "Anime" ];
+const roles = ["- MG", "- Player", "- Anime" ];
 const reactions = ["🎫", "💻", "😃"];
 /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
@@ -20,7 +20,9 @@ if (roles.length !== reactions.length) throw "Roles list and reactions list are 
 function generateMessages(){
     var messages = [];
     messages.push(initialMessage);
-    for (let role of roles) messages.push(`React below to get the **"${role}"** role!`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`
+اضغط على الري اكشن لاخذ رتبة
+ **${role}**`); 
     return messages;
 }
 
